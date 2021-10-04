@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+@import "./variables";
+@import "./header.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Doppio One', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

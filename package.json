@@ -1,0 +1,26 @@
+{
+  "name": "react-resources-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --include-path scss styles/index.scss styles/index.css",
+    "watch": "nodemon -e scss -x npm run css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulgoyal8312/react-resources-2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulgoyal8312/react-resources-2021/issues"
+  },
+  "homepage": "https://github.com/rahulgoyal8312/react-resources-2021#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
